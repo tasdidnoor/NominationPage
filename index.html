@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nominate Me for Election</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Election Nomination</h1>
+            <p>Your support means everything. Fill out the form below to nominate me for the upcoming election.</p>
+        </header>
+
+        <main>
+            <!-- 
+                INSTRUCTIONS: 
+                1. Go to https://formspree.io/ and create a free account.
+                2. Create a new form and get your unique ID.
+                3. Replace "your-form-id" in the action attribute below with your actual ID.
+            -->
+            <form action="https://formspree.io/f/your-form-id" method="POST">
+                <div class="form-group">
+                    <label for="full-name">Full Name</label>
+                    <input type="text" id="full-name" name="full_name" placeholder="Enter your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="text" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+
+                <button type="submit" class="submit-btn">Submit Nomination</button>
+            </form>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Tasdid Noor. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
