@@ -1,25 +1,11 @@
-# Election Nomination Page
+# Election Nomination Portal
 
-A simple, mobile-responsive webpage for collecting student nominations.
+Official nomination form for the upcoming 2026 Student Election. 
 
-## Setup Instructions
+This portal was designed to provide a streamlined, mobile-friendly way for students to submit their nominations securely and efficiently.
 
-1. **Get a Formspree ID:**
-   - Go to [Formspree](https://formspree.io/) and create a free account.
-   - Create a new project and a new form.
-   - Copy the unique form ID provided (it looks like `mjvnyvlk`).
+## Privacy
+We value your privacy. All information submitted through this form is handled directly by the campaign team and is used solely for the purpose of the official nomination process.
 
-2. **Update index.html:**
-   - Open `index.html`.
-   - Find the `<form>` tag: `<form action="https://formspree.io/f/your-form-id" method="POST">`.
-   - Replace `your-form-id` with your actual ID.
-
-3. **Deploy:**
-   - You can host this for free using **GitHub Pages**.
-   - Go to your repository settings on GitHub -> Pages -> Select the `main` branch and `/root` folder -> Save.
-
-## Features
-- Minimalist, high-contrast design.
-- Mobile-responsive.
-- No client-side email format validation (as requested).
-- Direct-to-email submissions via Formspree.
+## Support
+For any issues with the form, please contact the campaign representative directly.
